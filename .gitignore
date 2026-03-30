@@ -1,0 +1,33 @@
+# Build artifacts
+cpp/build/
+cpp/json.hpp          # downloaded by fetch_deps.sh — not committed
+
+# Runtime outputs
+shared/output.json
+shared/output.tmp.json
+logs/session.log
+logs/cpp_log.csv
+logs/session_summary.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# macOS
+.DS_Store
+
+# Keep sample files
+!logs/sample_session.csv
+!logs/sample_session_summary.txt
